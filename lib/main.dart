@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:seventh_stack_structures/stack_view.dart';
+import 'package:seventh_stack_structures/stack_view_with_positioned_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: StackView(),
+      home: StackViewWithPositioned(),
     );
     }
 }
